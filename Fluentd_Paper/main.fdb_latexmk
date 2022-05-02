@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1651458335 "c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex" "main.pdf" "main" 1651458335
+["pdflatex"] 1651458459 "c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex" "main.pdf" "main" 1651458459
   "body.aux" 0 -1 0 "pdflatex"
-  "body.tex" 1651458272 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "body.tex" 1651458457 12 f81e29ae988b19699abd92c59906d0ee ""
   "c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex" 1651458281 521 b4fafc0951de175cd04eaaf119768f2d ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1646110226 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1646109071 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -14,6 +14,9 @@
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1646109071 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1646109071 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1646109071 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1646108124 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1646108124 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1646108124 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1646112033 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2021/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1646108274 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "c:/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf" 1646108345 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -65,9 +68,10 @@
   "c:/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty" 1646114335 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
   "c:/texlive/2021/texmf-dist/tex/latex/url/url.sty" 1646114603 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/texlive/2021/texmf-dist/web2c/texmf.cnf" 1646107966 40042 fe981136cbb5f3715ab1b0e46e3d3892 ""
+  "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646115082 4448422 1ce8db434ffa4259b75148f2b12051ea ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646115211 2797722 729b6ddd20684339f5b88305eee1b3d7 ""
   "c:/texlive/2021/texmf.cnf" 1646115064 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1651458335 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.aux" 1651458459 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
   "main.tex" 1651458281 521 b4fafc0951de175cd04eaaf119768f2d ""
   (generated)
