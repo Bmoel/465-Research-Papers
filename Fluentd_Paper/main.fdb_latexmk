@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1651459946 "c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex" "main.pdf" "main" 1651459947
-  "body.aux" 1651459946 1205 cb0e61737a7f50507e27a7f32903d792 "pdflatex"
-  "body.tex" 1651459945 204 82f5fec9fdab24431edb24bc19b3019a ""
-  "c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex" 1651459187 538 dcd54dbb7e64f4e2478e6494bf835c6e ""
+["pdflatex"] 1651550858 "c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex" "main.pdf" "main" 1651550858
+  "body.aux" 1651550858 1450 e802993bcf69a169c5cbeb58be7c0d82 "pdflatex"
+  "body.tex" 1651550849 1418 56093865958f3ef6cbb75b86100be78e ""
+  "c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex" 1651550857 515 0c97517d035c229ca2820b366d9a29c6 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1646110226 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1646109071 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1646109071 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -73,9 +73,9 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646115082 4448422 1ce8db434ffa4259b75148f2b12051ea ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646115211 2797722 729b6ddd20684339f5b88305eee1b3d7 ""
   "c:/texlive/2021/texmf.cnf" 1646115064 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1651459946 784 be5b01f333067014377d9ee44c8662f5 "pdflatex"
-  "main.out" 1651459946 395 a039791e5d21a992f815d73375eb26c9 "pdflatex"
-  "main.tex" 1651459187 538 dcd54dbb7e64f4e2478e6494bf835c6e ""
+  "main.aux" 1651550858 784 be5b01f333067014377d9ee44c8662f5 "pdflatex"
+  "main.out" 1651550858 575 a364b0ba21c68384fb1b113c400ed0c6 "pdflatex"
+  "main.tex" 1651550857 515 0c97517d035c229ca2820b366d9a29c6 ""
   (generated)
   "body.aux"
   "main.aux"
