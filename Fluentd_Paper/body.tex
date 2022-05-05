@@ -51,7 +51,7 @@ listed never was too strenuous though, with the instructions listed only taking 
 it goes through Fluentd. For example, a piece of data could come into fluentd via a source directive, go through a filter directive to add to the contents of that data stream, and
 then finally go to through a match directive and get forwarded to the output destination of choice.
 \subsection{Putting everything together}
-\quad \quad With all three of these directives put together, it is possible to achieve data organization and forwarding in the follwing way.
+\quad \quad With all three of these directives put together, it is possible to achieve data organization and forwarding in the following way.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=1]{images/how_it_works.png}
@@ -62,7 +62,18 @@ Data starts by entering into the source section, and then has two options. It ca
 This way for every data source that has been identified by a source directive can have the option of going through filters or not depending on the tag that a filter plugin is given. This 
 gives users a lot of customizability for how they want their data to be altered.
 \section{Fluentd versus Logstash} \label{sec:comp}
-\quad \quad
+\quad \quad Fluentd and Logstash are both widely used open-source logging tools, and are widely compared due the the breath of similar features that 
+they provide. They are both data collection tools that work to route data to their correct sources, and they are both used inside of the 
+ELK Stack (ElasticSearch, Logstash, and Kibana) and EFK Stack (ElasticSearch,Fluentd, and Kibana) respectively. Due to these highly effective means of organizing and storing data, both 
+Fluentd and Logstash have made large contributions within the logging industry. Although they do relatively similar jobs, there are some key advantages that both have over the other.
+\subsection{Advantages of Fluentd}
+\quad \quad To start, in general \say{it is known that Logstash consumes more memory than Fluentd}[3]. Due to this Fluentd is a better option to deploy with if a machine is
+computationally limited. For even smaller machine or embedded systems, there is even a separate, lightweight version called Fluent-Bit that \say{is implemented primarily in C}[3]. According to its website,
+FluentBit is also highly recommended to use in containerized environments. In general whether using Fluentd or FluentBit, they are both considered to be the right choice when using containerized environments even 
+though LogStash also has a lightweight version called Elastic Beats. This is because \say{if your use case goes beyond mere data transport, to also require data pulling and aggregation, then you'd need both Logstash and Elastic Beats}[3].
+Due to this, Fluentd is considered the better option when it comes to using either containers or machines limited in hardware.
+\subsection{Advantages of Logstash}
+\quad \quad 
 \section{Fluentd demo} \label{sec:demo}
 \quad \quad 
 \section{Conclusion} \label{sec:conclude}
