@@ -4,11 +4,11 @@ With all of the different types of data that can come from a variety of sources,
 to have a unified logging layer to sort and export all these different data sources. On the market, some
 of the tools that can accomplish this tend to be on the expensive side, but there are also open source tools that
 work to compete with these tools. One such tool is Fluentd, which is an unified logging layer that is comparable to
-Logstash, another popular logging tool. Both of these tools can be connected to Kibana and the Elastic Stack, 
+LogStash, another popular logging tool. Both of these tools can be connected to Kibana and the Elastic Stack, 
 making them powerful logging tools when used correctly. The rest of the paper is structured as follows. The 
 \hyperref[sec:motiv]{next section} gives the motivation as to why logging tools are important. 
 \hyperref[sec:works]{Section 3} goes into more detail on how fluentd works under the hood, and also gives some
-use cases. \hyperref[sec:comp]{Section 4} gives a comparison between the two popular logging layer tools, Logstash 
+use cases. \hyperref[sec:comp]{Section 4} gives a comparison between the two popular logging layer tools, LogStash 
 and Fluentd, as well as discuss how both connect the the ELK Stack. \hyperref[sec:demo]{Section 5} will give a demo on how to 
 utilize Fluentd in different logging scenarios, and then \hyperref[sec:conclude]{section 6} will conclude the paper.
 \section{Motivation} \label{sec:motiv}
@@ -18,7 +18,7 @@ day basis. For example, if a company has multiple machines running applications 
 to have all the log data of all the machines centralized in a single logging server. Tools like fluentd can do this, as 
 they provide features for listening and filtering logs as they are created (more on how this works in the next section). 
 In short, there are a variety of different logging tools out that have different functionalities and purposes. The two tools
-that will be discussed in this paper, Fluentd and Logstash, are known for their ability to be unified logging layers that can
+that will be discussed in this paper, Fluentd and LogStash, are known for their ability to be unified logging layers that can
 listen for and send data to a variety of destinations. Organization can be key when it comes to security and other subjects,
 as there are some things that can only be seen when data has been brought together into one place and compared.
 \section{How Fluentd Works} \label{sec:works}
@@ -61,29 +61,41 @@ then finally go to through a match directive and get forwarded to the output des
 Data starts by entering into the source section, and then has two options. It can either go straight to the match section or it can go through a series of one or more filter directive. 
 This way for every data source that has been identified by a source directive can have the option of going through filters or not depending on the tag that a filter plugin is given. This 
 gives users a lot of customizability for how they want their data to be altered.
-\section{Fluentd versus Logstash} \label{sec:comp}
-\quad \quad Fluentd and Logstash are both widely used open-source logging tools, and are widely compared due the the breath of similar features that 
+\section{Fluentd versus LogStash} \label{sec:comp}
+\quad \quad
+ Fluentd and LogStash are both widely used open-source logging tools, and are widely compared due the the breath of similar features that 
 they provide. They are both data collection tools that work to route data to their correct sources, and they are both used inside of the 
-ELK Stack (ElasticSearch, Logstash, and Kibana) and EFK Stack (ElasticSearch,Fluentd, and Kibana) respectively. Due to these highly effective means of organizing and storing data, both 
-Fluentd and Logstash have made large contributions within the logging industry. Although they do relatively similar jobs, there are some key advantages that both have over the other.
+ELK Stack (ElasticSearch, LogStash, and Kibana) and EFK Stack (ElasticSearch,Fluentd, and Kibana) respectively. Due to these highly effective means of organizing and storing data, both 
+Fluentd and LogStash have made large contributions within the logging industry. Although they do relatively similar jobs, there are some key advantages that both have over the other.
 \subsection{Advantages of Fluentd}
-\quad \quad To start, in general \say{it is known that Logstash consumes more memory than Fluentd}[3]. Due to this Fluentd is a better option to deploy with if a machine is
+\quad \quad
+To start, in general \say{it is known that LogStash consumes more memory than Fluentd}[3]. Due to this Fluentd is a better option to deploy with if a machine is
 computationally limited. For even smaller machine or embedded systems, there is even a separate, lightweight version called Fluent-Bit that \say{is implemented primarily in C}[3]. According to its website,
 FluentBit is also highly recommended to use in containerized environments. In general whether using Fluentd or FluentBit, they are both considered to be the right choice when using containerized environments even 
-though LogStash also has a lightweight version called Elastic Beats. This is because \say{if your use case goes beyond mere data transport, to also require data pulling and aggregation, then you'd need both Logstash and Elastic Beats}[3].
+though LogStash also has a lightweight version called Elastic Beats. This is because \say{if your use case goes beyond mere data transport, to also require data pulling and aggregation, then you'd need both LogStash and Elastic Beats}[3].
 Due to this, Fluentd is considered the better option when it comes to using either containers or machines limited in hardware.
-\subsection{Advantages of Logstash}
-\quad \quad 
+\subsection{Advantages of LogStash}
+\quad \quad
+While Fluentd has the advantage when it comes to lightweight and containerized environments, LostStash excels in other areas than Fluentd does. Because LogStash \say{was built with Elasticsearch and Kibana in mind}[5], it 
+is more convenient to use when combining these tools together. In general, the \say{vast plugin ecosystem} that LogStash offers is more convenient than what Fluentd has to offer. While Fluentd has a lot good
+default options for outputs to match to, in order to connect to services like ElasticSearch there is a bit more installation that is needed. As a result, LogStash becomes the more appealing option if a centralized plugin ecosystem is preferred to 
+Fluentd's \say{decentralized yet vast plugin ecosystem hosted in individual repositories}[3].
+\subsection{Conclusion}
+\quad \quad
+All in all, both Fluentd and LogStash are both amazing options when it comes to data collection and organization. While Fluentd holds the advantage for smaller, more lightweight systems, LogStash definitely pulls ahead when it comes to ease of 
+use with ElasticSearch and other plugins within its ecosystem.
 \section{Fluentd demo} \label{sec:demo}
 \quad \quad 
 \section{Conclusion} \label{sec:conclude}
 \quad \quad 
+In conclusion, Logging tools are extremely useful when it comes to collecting and organizing the data we create on a day to day basis. Without these tools, it would be difficult to collect and send data to a centralized location where the data can 
+be analyzed. Whether using a tool like Fluentd that excels on lightweight or containerized environments, or LogStash that works well with ElasticSearch, both options will increase the efficiency of data collection dramatically. 
 \newpage
 \begin{thebibliography}{widest entry}
     \bibitem{1}{Fluentd 1.0 Documentation. (2021). Fluentd. https://docs.fluentd.org/}
     \bibitem{2}{Fluentd Architecture Overview. (2021). What is Fluentd?. \\https://www.fluentd.org/architecture}
-    \bibitem{3}{Platform9. (2020, February 11). Kubernetes Logging: Comparing Fluentd vs. Logstash. https://platform9.com/blog/kubernetes-logging-comparing-fluentd-vs-logstash/}
-    \bibitem{4}{Reock, Justin. (2020, April 14). Fluentd vs Logstash: How to Decide for Your Organization. https://www.openlogic.com/blog/fluentd-vs-logstash}
-    \bibitem{5}{Chelat, Ajit. (2021, April 9). Fluentd vs. Logstash: The Ultimate Log Agent Battle. https://www.logiq.ai/fluentd-vs-logstash-the-ultimate-log-battle/}
+    \bibitem{3}{Platform9. (2020, February 11). Kubernetes Logging: Comparing Fluentd vs. LogStash. https://platform9.com/blog/kubernetes-logging-comparing-fluentd-vs-LogStash/}
+    \bibitem{4}{Reock, Justin. (2020, April 14). Fluentd vs LogStash: How to Decide for Your Organization. https://www.openlogic.com/blog/fluentd-vs-LogStash}
+    \bibitem{5}{Chelat, Ajit. (2021, April 9). Fluentd vs. LogStash: The Ultimate Log Agent Battle. https://www.logiq.ai/fluentd-vs-LogStash-the-ultimate-log-battle/}
     \bibitem{6}{Docker docs. (2021). Fluentd logging driver. \\https://docs.docker.com/config/containers/logging/fluentd/}
 \end{thebibliography}
