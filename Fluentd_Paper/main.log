@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  5 MAY 2022 22:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,9 +6,9 @@ entering extended mode
 **"c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex"
 (c:/Users/Ben Moeller/Documents/GitHub/465_Research_Papers/Fluentd_Paper/main.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-04-29> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2022-02-24> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+(c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -22,80 +22,80 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (c:/texlive/2022/texmf-dist/tex/latex/float/float.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count193
 \float@exts=\toks16
 \float@box=\box50
 \@float@everytoks=\toks17
 \@floatcapt=\box51
-) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
-) (c:/texlive/2022/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
 Package: dirtytalk 2010/11/21 A package making "quoting" easier
- (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@dirtytalk@qdepth=\count194
-) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
- (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen141
 \Hy@linkcounter=\count195
 \Hy@pagecounter=\count196
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count197
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -108,15 +108,15 @@ Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
 \c@Hy@tempcnt=\count198
- (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4749.
 \XeTeXLinkMargin=\dimen142
- (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count199
@@ -131,7 +131,7 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
 LaTeX Info: Redefining \ref on input line 6097.
 LaTeX Info: Redefining \pageref on input line 6101.
- (c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -140,25 +140,25 @@ package with kernel methods
 \c@Hfootnote=\count268
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
- (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count269
 \c@bookmark@seq@number=\count270
- (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip49
-) (c:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count271
@@ -173,19 +173,19 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen151
 \Gm@layoutvoffset=\dimen152
 \Gm@dimlist=\toks19
-) (c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
-) (c:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2022/04/30 3.74 The Babel package
+) (c:/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
 \babel@savecnt=\count274
 \U@D=\dimen153
 \l@unhyphenated=\language87
- (c:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+ (c:/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count275
- (c:/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+ (c:/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -193,8 +193,8 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 108.
-)) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+)) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box52
 ) (./main.aux (./body.aux))
@@ -218,7 +218,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
- (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
 \scratchdimen=\dimen154
@@ -231,24 +231,24 @@ LaTeX Font Info:    ... okay on input line 15.
 \MPnumerator=\count281
 \makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks23
-) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (c:/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 15.
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
- (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count283
@@ -303,11 +303,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 17.
 [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `body.aux'.
 
  (./body.tex
-<images/fluentd-architecture.png, id=73, 447.6725pt x 281.05pt>
+<images/fluentd-architecture.png, id=93, 447.6725pt x 281.05pt>
 File: images/fluentd-architecture.png Graphic file (type png)
 <use images/fluentd-architecture.png>
 Package pdftex.def Info: images/fluentd-architecture.png  used on input line 32.
@@ -315,28 +315,72 @@ Package pdftex.def Info: images/fluentd-architecture.png  used on input line 32.
  [2
 
 ] [3 <./images/fluentd-architecture.png>]
-<images/how_it_works.png, id=87, 414.5889pt x 107.4414pt>
+<images/how_it_works.png, id=107, 414.5889pt x 107.4414pt>
 File: images/how_it_works.png Graphic file (type png)
 <use images/how_it_works.png>
 Package pdftex.def Info: images/how_it_works.png  used on input line 57.
 (pdftex.def)             Requested size: 414.58788pt x 107.44113pt.
- [4 <./images/how_it_works.png>] [5]) [6] (./main.aux (./body.aux))
+ [4 <./images/how_it_works.png>] [5]
+<images/t1_1.png, id=118, 583.42969pt x 404.26031pt>
+File: images/t1_1.png Graphic file (type png)
+<use images/t1_1.png>
+Package pdftex.def Info: images/t1_1.png  used on input line 99.
+(pdftex.def)             Requested size: 350.0605pt x 242.55806pt.
+<images/t1_2.png, id=119, 307.90031pt x 108.405pt>
+File: images/t1_2.png Graphic file (type png)
+<use images/t1_2.png>
+Package pdftex.def Info: images/t1_2.png  used on input line 108.
+(pdftex.def)             Requested size: 307.89955pt x 108.40472pt.
+ [6 <./images/t1_1.png>]
+<images/t1_3.png, id=126, 338.76563pt x 91.09032pt>
+File: images/t1_3.png Graphic file (type png)
+<use images/t1_3.png>
+Package pdftex.def Info: images/t1_3.png  used on input line 116.
+(pdftex.def)             Requested size: 271.01285pt x 72.87233pt.
+<images/t1_4.png, id=127, 797.22844pt x 85.82062pt>
+File: images/t1_4.png Graphic file (type png)
+<use images/t1_4.png>
+Package pdftex.def Info: images/t1_4.png  used on input line 123.
+(pdftex.def)             Requested size: 438.477pt x 47.20146pt.
+<images/t2_1.png, id=128, 429.10312pt x 359.09157pt>
+File: images/t2_1.png Graphic file (type png)
+<use images/t2_1.png>
+Package pdftex.def Info: images/t2_1.png  used on input line 133.
+(pdftex.def)             Requested size: 321.82654pt x 269.31801pt.
+ [7 <./images/t1_2.png> <./images/t1_3.png> <./images/t1_4.png>]
+<images/t2_2.png, id=140, 292.84406pt x 164.86594pt>
+File: images/t2_2.png Graphic file (type png)
+<use images/t2_2.png>
+Package pdftex.def Info: images/t2_2.png  used on input line 141.
+(pdftex.def)             Requested size: 292.84334pt x 164.86551pt.
+<images/t2_3.png, id=141, 200.24812pt x 54.2025pt>
+File: images/t2_3.png Graphic file (type png)
+<use images/t2_3.png>
+Package pdftex.def Info: images/t2_3.png  used on input line 149.
+(pdftex.def)             Requested size: 200.24763pt x 54.20236pt.
+ [8 <./images/t2_1.png> <./images/t2_2.png>]
+<images/t2_4.png, id=150, 610.53094pt x 253.69781pt>
+File: images/t2_4.png Graphic file (type png)
+<use images/t2_4.png>
+Package pdftex.def Info: images/t2_4.png  used on input line 156.
+(pdftex.def)             Requested size: 457.89708pt x 190.27289pt.
+ [9 <./images/t2_3.png> <./images/t2_4.png>]) [10] (./main.aux (./body.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D6A313A7BFF9F7E2C66E33B91A0A97B1;1945.
+(rerunfilecheck)             Checksum: FB4798A2D0EFD628DD50C569E57F137E;2828.
  ) 
 Here is how much of TeX's memory you used:
- 9833 strings out of 478305
- 157834 string characters out of 5849247
- 468174 words of memory out of 5000000
- 27859 multiletter control sequences out of 15000+600000
+ 9892 strings out of 478276
+ 158475 string characters out of 5850489
+ 468775 words of memory out of 5000000
+ 27930 multiletter control sequences out of 15000+600000
  473206 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,361b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (6 pages, 294818 bytes).
+ 60i,8n,63p,397b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on main.pdf (10 pages, 562202 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 202 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

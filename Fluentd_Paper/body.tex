@@ -62,8 +62,9 @@ Data starts by entering into the source section, and then has two options. It ca
 This way for every data source that has been identified by a source directive can have the option of going through filters or not depending on the tag that a filter plugin is given. This 
 gives users a lot of customizability for how they want their data to be altered.
 \section{Fluentd versus LogStash} \label{sec:comp}
+\subsection{Introduction}
 \quad \quad
- Fluentd and LogStash are both widely used open-source logging tools, and are widely compared due the the breath of similar features that 
+Fluentd and LogStash are both widely used open-source logging tools, and are widely compared due the the breath of similar features that 
 they provide. They are both data collection tools that work to route data to their correct sources, and they are both used inside of the 
 ELK Stack (ElasticSearch, LogStash, and Kibana) and EFK Stack (ElasticSearch,Fluentd, and Kibana) respectively. Due to these highly effective means of organizing and storing data, both 
 Fluentd and LogStash have made large contributions within the logging industry. Although they do relatively similar jobs, there are some key advantages that both have over the other.
@@ -71,12 +72,12 @@ Fluentd and LogStash have made large contributions within the logging industry. 
 \quad \quad
 To start, in general \say{it is known that LogStash consumes more memory than Fluentd}[3]. Due to this Fluentd is a better option to deploy with if a machine is
 computationally limited. For even smaller machine or embedded systems, there is even a separate, lightweight version called Fluent-Bit that \say{is implemented primarily in C}[3]. According to its website,
-FluentBit is also highly recommended to use in containerized environments. In general whether using Fluentd or FluentBit, they are both considered to be the right choice when using containerized environments even 
+FluentBit is also highly recommended for use in containerized environments, such as Docker[5]. In general whether using Fluentd or FluentBit, they are both considered to be the right choice when using containerized environments even 
 though LogStash also has a lightweight version called Elastic Beats. This is because \say{if your use case goes beyond mere data transport, to also require data pulling and aggregation, then you'd need both LogStash and Elastic Beats}[3].
 Due to this, Fluentd is considered the better option when it comes to using either containers or machines limited in hardware.
 \subsection{Advantages of LogStash}
 \quad \quad
-While Fluentd has the advantage when it comes to lightweight and containerized environments, LostStash excels in other areas than Fluentd does. Because LogStash \say{was built with Elasticsearch and Kibana in mind}[5], it 
+While Fluentd has the advantage when it comes to lightweight and containerized environments, LostStash excels in other areas than Fluentd does. Because LogStash \say{was built with Elasticsearch and Kibana in mind}[4], it 
 is more convenient to use when combining these tools together. In general, the \say{vast plugin ecosystem} that LogStash offers is more convenient than what Fluentd has to offer. While Fluentd has a lot good
 default options for outputs to match to, in order to connect to services like ElasticSearch there is a bit more installation that is needed. As a result, LogStash becomes the more appealing option if a centralized plugin ecosystem is preferred to 
 Fluentd's \say{decentralized yet vast plugin ecosystem hosted in individual repositories}[3].
@@ -85,17 +86,88 @@ Fluentd's \say{decentralized yet vast plugin ecosystem hosted in individual repo
 All in all, both Fluentd and LogStash are both amazing options when it comes to data collection and organization. While Fluentd holds the advantage for smaller, more lightweight systems, LogStash definitely pulls ahead when it comes to ease of 
 use with ElasticSearch and other plugins within its ecosystem.
 \section{Fluentd demo} \label{sec:demo}
-\quad \quad 
+\subsection{Demo Dependencies}
+\quad \quad This demo will be performed using the Fluentd Logging platform. With that, there will also be two machines in use. One machine that will be running on Ubuntu Linux version 20.04.1, and another machine that is running Kali Linux version 5.10.28.
+The demo will also use some python scripts to help with generating data for fluentd, so python3.8 is also installed on both machines.
+\subsection{The Objective of the Demo}
+\quad \quad The main goal of this demo is to test two questions. One, how well is fluentd able to sort through and edit certain patterns in data using the filter directive. Two, is it possible to connect two instances of 
+Fluentd on two separate machines? These questions will be analyzed in the following sections.
+\subsection{Filtering with Fluentd}
+\quad \quad This test will work in the following way. Fluentd will be started up as a background process with the following configuration file.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{images/t1_1.png}
+    \caption{Test 1 configuration file}
+    \label{fig:pic3}
+\end{figure}
+This configuration file has a source directive that points the the tail of a file named "write.log". Fluentd also has a position file that tracks the current end of the file, and when a new line is added it will update Fluentd.
+That data will then run through the filter directive, and if it finds the name "Ben" in the message, it will append the string "append to message" to the data. All of this will be printed out to stdout using 
+the match directive at the bottom, if and only if it makes it through the filter. Also in order to write to the file, the following python script is used.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=1]{images/t1_2.png}
+    \caption{Test 1 python file}
+    \label{fig:pic4}
+\end{figure}
+To start up Fluentd, all that is required is to type "fluentd -c ./fluent/fluent.conf -vv \&", where the "fluent.conf" file is the configuration file shown above. After Fluentd is up and running, I ran the python file above and wrote the following lines
+to file.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{images/t1_3.png}
+    \caption{Test 1 python input}
+    \label{fig:pic5}
+\end{figure}
+With this, we should expect only one message to pass through, which is the message that contained "Ben" inside of it. The following was the output in Fluentd.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.55]{images/t1_4.png}
+    \caption{Test 1 Fluentd output}
+    \label{fig:pic6}
+\end{figure}
+Since the message with "Ben" inside of it was the only one that passed though, and the new message had a new string appended to it, this part of the demo was a success.
+\subsection{Connecting two machines with Fluentd}
+\quad \quad For this test, two different virtual machines will be used as mentioned earlier, one Ubuntu virtual machine and one Kali Linux virtual machine. In this scenario, the goal is to send a message from the Kali machine to the Ubuntu machine. This will be done
+by using the forward typing match directive. This will basically take a message as input, and forward it to another instance of Fluentd by connecting the two machines by their IP Addresses. Here is the following configuration file that was used for the Kali machine.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.75]{images/t2_1.png}
+    \caption{Test 2 Kali Machine Fluentd configuration file}
+    \label{fig:pic7}
+\end{figure}
+In this configuration file, the source directive will be reading from the end of a file, using the same python file setup used in the previous test. So once Fluentd notices that there is a new line in the file, it will
+use the match directive with the forward type to send the message to the Ubuntu machine with IP Address "192.268.100.4". From there it is up to the virtual machine running its own instance of Fluentd to catch the message with the following configuration file.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=1]{images/t2_2.png}
+    \caption{Test 2 Ubuntu Machine Fluentd configuration file}
+    \label{fig:pic8}
+\end{figure}
+The source directive in this configuration file will listen for any data that arrive at port 24224. Once it does, it will then send the message that it received to stdout for printing. So to start the test, I started running Fluentd on both machines as background processes.
+Then on the Kali machine I ran the previously shown python file (Figure 4) with the following message.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=1]{images/t2_3.png}
+    \caption{Test 2 Kali message sent}
+    \label{fig:pic9}
+\end{figure}
+Then on the Ubuntu machine, the following message was printed to the terminal.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.75]{images/t2_4.png}
+    \caption{Test 2 Fluentd output on Ubuntu machine}
+    \label{fig:pic10}
+\end{figure}
+Through this, it shows that it is possible to connect multiple machines running different instances of Fluentd. In an enterprise scale, instead of printing to stdout, this data could then be sent off to files, or even to a program like 
+ElasticSearch. This is all made possible through the organization Fluentd can provide.
 \section{Conclusion} \label{sec:conclude}
 \quad \quad 
-In conclusion, Logging tools are extremely useful when it comes to collecting and organizing the data we create on a day to day basis. Without these tools, it would be difficult to collect and send data to a centralized location where the data can 
+In conclusion, logging tools are extremely useful when it comes to collecting and organizing the data we create on a day to day basis. Without these tools, it would be difficult to collect and send data to a centralized location where the data can 
 be analyzed. Whether using a tool like Fluentd that excels on lightweight or containerized environments, or LogStash that works well with ElasticSearch, both options will increase the efficiency of data collection dramatically. 
 \newpage
 \begin{thebibliography}{widest entry}
     \bibitem{1}{Fluentd 1.0 Documentation. (2021). Fluentd. https://docs.fluentd.org/}
     \bibitem{2}{Fluentd Architecture Overview. (2021). What is Fluentd?. \\https://www.fluentd.org/architecture}
     \bibitem{3}{Platform9. (2020, February 11). Kubernetes Logging: Comparing Fluentd vs. LogStash. https://platform9.com/blog/kubernetes-logging-comparing-fluentd-vs-LogStash/}
-    \bibitem{4}{Reock, Justin. (2020, April 14). Fluentd vs LogStash: How to Decide for Your Organization. https://www.openlogic.com/blog/fluentd-vs-LogStash}
-    \bibitem{5}{Chelat, Ajit. (2021, April 9). Fluentd vs. LogStash: The Ultimate Log Agent Battle. https://www.logiq.ai/fluentd-vs-LogStash-the-ultimate-log-battle/}
-    \bibitem{6}{Docker docs. (2021). Fluentd logging driver. \\https://docs.docker.com/config/containers/logging/fluentd/}
+    \bibitem{4}{Chelat, Ajit. (2021, April 9). Fluentd vs. LogStash: The Ultimate Log Agent Battle. https://www.logiq.ai/fluentd-vs-LogStash-the-ultimate-log-battle/}
+    \bibitem{5}{Docker docs. (2021). Fluentd logging driver. \\https://docs.docker.com/config/containers/logging/fluentd/}
 \end{thebibliography}
