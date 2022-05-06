@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  5 MAY 2022 22:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  5 MAY 2022 23:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -301,80 +301,80 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 17.
-<images/fluentd-architecture.png, id=85, 447.6725pt x 281.05pt>
-File: images/fluentd-architecture.png Graphic file (type png)
-<use images/fluentd-architecture.png>
-Package pdftex.def Info: images/fluentd-architecture.png  used on input line 49.
+<images/Fluentd-architecture.png, id=85, 447.6725pt x 281.05pt>
+File: images/Fluentd-architecture.png Graphic file (type png)
+<use images/Fluentd-architecture.png>
+Package pdftex.def Info: images/Fluentd-architecture.png  used on input line 48.
 (pdftex.def)             Requested size: 335.75354pt x 210.78697pt.
 [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/fluentd-architecture.png>]
-<images/how_it_works.png, id=103, 414.5889pt x 107.4414pt>
+<images/how_it_works.png, id=102, 414.5889pt x 107.4414pt>
 File: images/how_it_works.png Graphic file (type png)
 <use images/how_it_works.png>
-Package pdftex.def Info: images/how_it_works.png  used on input line 74.
+Package pdftex.def Info: images/how_it_works.png  used on input line 73.
 (pdftex.def)             Requested size: 414.58788pt x 107.44113pt.
  [3 <./images/how_it_works.png>] [4]
-<images/t1_1.png, id=114, 583.42969pt x 404.26031pt>
+<images/t1_1.png, id=113, 583.42969pt x 404.26031pt>
 File: images/t1_1.png Graphic file (type png)
 <use images/t1_1.png>
-Package pdftex.def Info: images/t1_1.png  used on input line 116.
+Package pdftex.def Info: images/t1_1.png  used on input line 115.
 (pdftex.def)             Requested size: 350.0605pt x 242.55806pt.
-<images/t1_2.png, id=115, 307.90031pt x 108.405pt>
+<images/t1_2.png, id=114, 307.90031pt x 108.405pt>
 File: images/t1_2.png Graphic file (type png)
 <use images/t1_2.png>
-Package pdftex.def Info: images/t1_2.png  used on input line 125.
+Package pdftex.def Info: images/t1_2.png  used on input line 124.
 (pdftex.def)             Requested size: 307.89955pt x 108.40472pt.
  [5 <./images/t1_1.png>]
-<images/t1_3.png, id=122, 338.76563pt x 91.09032pt>
+<images/t1_3.png, id=121, 338.76563pt x 91.09032pt>
 File: images/t1_3.png Graphic file (type png)
 <use images/t1_3.png>
-Package pdftex.def Info: images/t1_3.png  used on input line 133.
+Package pdftex.def Info: images/t1_3.png  used on input line 132.
 (pdftex.def)             Requested size: 271.01285pt x 72.87233pt.
-<images/t1_4.png, id=123, 797.22844pt x 85.82062pt>
+<images/t1_4.png, id=122, 797.22844pt x 85.82062pt>
 File: images/t1_4.png Graphic file (type png)
 <use images/t1_4.png>
-Package pdftex.def Info: images/t1_4.png  used on input line 140.
+Package pdftex.def Info: images/t1_4.png  used on input line 139.
 (pdftex.def)             Requested size: 438.477pt x 47.20146pt.
-<images/t2_1.png, id=124, 429.10312pt x 359.09157pt>
+<images/t2_1.png, id=123, 429.10312pt x 359.09157pt>
 File: images/t2_1.png Graphic file (type png)
 <use images/t2_1.png>
-Package pdftex.def Info: images/t2_1.png  used on input line 150.
+Package pdftex.def Info: images/t2_1.png  used on input line 149.
 (pdftex.def)             Requested size: 321.82654pt x 269.31801pt.
  [6 <./images/t1_2.png> <./images/t1_3.png> <./images/t1_4.png>]
-<images/t2_2.png, id=135, 292.84406pt x 164.86594pt>
+<images/t2_2.png, id=134, 292.84406pt x 164.86594pt>
 File: images/t2_2.png Graphic file (type png)
 <use images/t2_2.png>
-Package pdftex.def Info: images/t2_2.png  used on input line 158.
+Package pdftex.def Info: images/t2_2.png  used on input line 157.
 (pdftex.def)             Requested size: 292.84334pt x 164.86551pt.
-<images/t2_3.png, id=136, 200.24812pt x 54.2025pt>
+<images/t2_3.png, id=135, 200.24812pt x 54.2025pt>
 File: images/t2_3.png Graphic file (type png)
 <use images/t2_3.png>
-Package pdftex.def Info: images/t2_3.png  used on input line 166.
+Package pdftex.def Info: images/t2_3.png  used on input line 165.
 (pdftex.def)             Requested size: 200.24763pt x 54.20236pt.
  [7 <./images/t2_1.png> <./images/t2_2.png>]
-<images/t2_4.png, id=146, 610.53094pt x 253.69781pt>
+<images/t2_4.png, id=145, 610.53094pt x 253.69781pt>
 File: images/t2_4.png Graphic file (type png)
 <use images/t2_4.png>
-Package pdftex.def Info: images/t2_4.png  used on input line 173.
+Package pdftex.def Info: images/t2_4.png  used on input line 172.
 (pdftex.def)             Requested size: 457.89708pt x 190.27289pt.
  [8 <./images/t2_3.png> <./images/t2_4.png>] [9] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FB4798A2D0EFD628DD50C569E57F137E;2828.
+(rerunfilecheck)             Checksum: 92FC116B5AE778662C453F29A9BB2A40;2813.
  ) 
 Here is how much of TeX's memory you used:
  9863 strings out of 478276
  157847 string characters out of 5850489
- 472422 words of memory out of 5000000
+ 472419 words of memory out of 5000000
  27909 multiletter control sequences out of 15000+600000
  473206 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,378b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,63p,388b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (9 pages, 562013 bytes).
+Output written on main.pdf (9 pages, 562080 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+ 197 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  45 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
